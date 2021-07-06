@@ -1,0 +1,55 @@
+html, input {
+    font-family: sans-serif;
+    }
+body {
+    margin: Opx auto; 
+    display: flex;
+    justify-content: center;
+    background-color:cornsilk;
+    }
+.headerContainer {
+    display: flex;
+    flex-flow: column wrap; 
+    align-content: center; 
+    background: tomato; 
+    font-weight: bold; 
+    margin-bottom: 20px;
+    }
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    flex-basis: content;
+    width: 60%;
+    }
+div {
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    }
+label, input, button {
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    }
+label {
+    text-align: center;
+    width: 30%;
+    margin-right: 2%;
+    }
+input {
+    background-color:azure;
+    flex: auto;
+    }
+button {
+    width: 70%;
+    margin: 0 auto;
+    }
+.error-output{
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+    }
+        
